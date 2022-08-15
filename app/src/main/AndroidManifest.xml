@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hdd"
+        android:label="QLHV"
+        android:roundIcon="@mipmap/hdd"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".ChinhSuaThongTin"></activity>
+        <activity android:name=".Thoikhoabieu_user" />
+        <activity android:name=".Thanhtoangiangvien_Admin" />
+        <activity android:name=".Thanhtoanmonhoc_Teacher" />
+        <activity android:name=".Tongsomondangday_Teacher" />
+        <activity android:name=".Mondathanhtoan_User" />
+        <activity android:name=".Monhocdanghoc_user" />
+        <activity android:name=".Hoc_online_User" />
+        <activity android:name=".Hoc_online_Teacher" />
+        <activity android:name=".Tai_chinh_Teacher" />
+        <activity android:name=".Tai_chinh_User" />
+        <activity android:name=".Tai_chinh_Admin" />
+        <activity android:name=".Monhoc_user" />
+        <activity android:name=".Dangkymonhoc_User" />
+        <activity android:name=".Them_xoa_hv_teacher" />
+        <activity android:name=".quanlysinhvien_teacher" />
+        <activity android:name=".Lichgiangday_teacher" />
+        <activity android:name=".Thongtinmongiangday_teacher" />
+        <activity android:name=".Tao_Lichhoc" />
+        <activity android:name=".MonGiangDay_teacher" />
+        <activity android:name=".ManHinhChinhTeacher" />
+        <activity android:name=".ThangCapXoaUser" />
+        <activity android:name=".QuanLyNguoiDung" />
+        <activity android:name=".TaoXoaMonHoc" />
+        <activity android:name=".QuanLiMonHoc" />
+        <activity android:name=".ManHinhChinh_Admin" />
+        <activity android:name=".ManHinhChinhUser" />
+        <activity android:name=".DangKy" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

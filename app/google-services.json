@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149000655323",
+    "project_id": "remake-ab8c4",
+    "storage_bucket": "remake-ab8c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149000655323:android:6be60433d85eeb420797fe",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149000655323-fou6fqhedub9e24dfv19co65n3r4iqa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO9j5vuM8JPNDjIJTWsb90_Lla1qnHjHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149000655323-fou6fqhedub9e24dfv19co65n3r4iqa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

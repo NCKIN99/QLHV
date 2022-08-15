@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custum_border"
+        android:layout_weight="2.3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/tvstt_tsmdd"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custum_border"
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/tvmamon_tsmdd"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custum_border"
+        android:layout_weight="1.6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/tvtenmon_tsmdd"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
